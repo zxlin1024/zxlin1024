@@ -82,7 +82,7 @@ function move(id)
    //从1开始，把每个大DIV保存的编号遍历一下，判断是否完成
    if (finish_flag == true) {
      if (!pause) start();
-     alert('congratulation');
+     alert('you successed');
    }
    //如果为true，则表示游戏完成，如果当前没有暂停，则调用暂停韩式，并且弹出提示框，完成游戏。
    //start()这个函数是开始，暂停一起的函数，如果暂停，调用后会开始，如果开始，则调用后会暂停
